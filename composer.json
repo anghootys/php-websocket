@@ -1,0 +1,15 @@
+{
+    "name": "main-functions/php-websocket",
+    "description": "A simple websocket implementation for php server BackEnd",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "scripts": {
+        "start": "php src/index.php"
+    }
+}
